@@ -1,0 +1,122 @@
+ВФЦbody {
+    font-family: sans-serif;
+}
+
+.shapka img {
+    width: 100px;
+}
+
+.shapka h1 {
+    font-size: 50px;
+    color: yellow;
+}
+
+.shapka span {
+    color: black;
+    background-color: yellow;
+    padding: 5px;
+}
+
+.shapka a {
+    text-decoration: none;
+    font-size: 30px;
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+}
+
+.shapka {
+    background-color: rgb(22, 22, 22);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    background-color: rgb(22, 22, 22);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+}
+.card img{
+    width: 400px;
+    height: 300px;
+}
+.card a{
+    text-decoration: none;
+    font-size: 30px;
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+}
+.card{
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.products {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0 auto 0 auto;
+}
+
+.otzyv img {
+    width: 200px;
+}
+
+.otzyv {
+    background-color: yellow;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+
+.otzyvi {
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+    margin: 0 auto 0 auto;
+    opacity: 0;
+}
+.podval p {
+    font-size: 30px;
+    background-color: yellow;
+    padding: 5px;
+    width: 500px;
+}
+
+.podval img {
+    width: 600px;
+    height: 200px;
+}
+
+.podval {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+   
+.otzyvi:hover {
+   opacity: 1;
+
+  }
+
+  
